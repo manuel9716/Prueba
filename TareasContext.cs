@@ -70,6 +70,7 @@ public class TareasContext: DbContext
         modelBuilder.Entity<Formulacion>(formulacion=> 
         {
             formulacion.ToTable("Formulacion");
+            
             formulacion.HasKey(p=> p.ID_FORMULACION);
 
             formulacion.Property(p=> p.ID_PRY);

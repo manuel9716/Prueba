@@ -25,7 +25,7 @@ public class FormulacionController : ControllerBase
     public IActionResult Post([FromBody] Formulacion formulacion) 
     {
         formulacionService.Save(formulacion);
-        return Ok();
+        return Ok("hola mundo");
     }
 
     [HttpPut("{id}")]

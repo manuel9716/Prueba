@@ -2,6 +2,7 @@ using System;
 using proyectoef;
 using proyectoef.Models;
 
+namespace webapi.Services;
 
 public class FormulacionService : IFormulacionService
 {
